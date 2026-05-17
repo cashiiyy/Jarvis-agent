@@ -1,0 +1,285 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=./output/xtts_run_20260511_175657\run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4000
+
+ > Model has 518442047 parameters
+
+[4m[1m > EPOCH: 0/25[0m
+ --> ./output/xtts_run_20260511_175657\run-May-11-2026_05+57PM-0000000
+
+[1m > TRAINING (2026-05-11 17:57:19) [0m
+
+[1m   --> TIME: 2026-05-11 18:00:48 -- STEP: 49/168 -- GLOBAL_STEP: 4050[0m
+     | > loss_text_ce: 0.025005530565977097  (0.01757520547478783)
+     | > loss_mel_ce: 2.0111663341522217  (0.8489179243238605)
+     | > loss: 2.0361719131469727  (0.8664931274798452)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.6842  (1.0975517399457035)
+     | > loader_time: 0.0089  (0.00881439325760822)
+
+ > Keyboard interrupt detected.
+ > Saving model before exiting...
+
+ > CHECKPOINT : ./output/xtts_run_20260511_175657\run-May-11-2026_05+57PM-0000000\checkpoint_4071.pth
+ ! Run is kept in ./output/xtts_run_20260511_175657\run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+
+[1m > TRAINING (2026-05-11 18:28:15) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+
+[1m > TRAINING (2026-05-11 18:29:45) [0m
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4071.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.8778124725905018, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+
+[1m > TRAINING (2026-05-11 18:33:47) [0m
+
+[1m   --> TIME: 2026-05-11 18:35:52 -- STEP: 28/168 -- GLOBAL_STEP: 4100[0m
+     | > loss_text_ce: 0.01111239567399025  (0.01717920574758734)
+     | > loss_mel_ce: 0.3006747364997864  (0.944795274840934)
+     | > loss: 0.31178712844848633  (0.961974481918982)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3295  (0.837369075843266)
+     | > loader_time: 0.0083  (0.009094672543661935)
+
+
+[1m   --> TIME: 2026-05-11 18:38:44 -- STEP: 78/168 -- GLOBAL_STEP: 4150[0m
+     | > loss_text_ce: 0.01658846065402031  (0.017383259136038706)
+     | > loss_mel_ce: 0.414325475692749  (0.8588470491843346)
+     | > loss: 0.43091392517089844  (0.8762303097889974)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3145  (1.0189046523509881)
+     | > loader_time: 0.0072  (0.008739835176712424)
+
+
+[1m   --> TIME: 2026-05-11 18:42:03 -- STEP: 128/168 -- GLOBAL_STEP: 4200[0m
+     | > loss_text_ce: 0.01339627429842949  (0.017730171173752758)
+     | > loss_mel_ce: 0.6600661873817444  (0.8946386696770787)
+     | > loss: 0.673462450504303  (0.912368840072304)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.2963  (1.0256974976509807)
+     | > loader_time: 0.0046  (0.00833983160555362)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.008000852105146389 [0m(+0)
+     | > avg_step_time: 0.9952151575488243 [0m(+0)
+     | > avg_loss_text_ce: 0.017636441575463672 [0m(+0)
+     | > avg_loss_mel_ce: 0.8971799340790617 [0m(+0)
+     | > avg_loss: 0.9148163743718656 [0m(+0)
+     | > avg_grad_norm: 0.0 [0m(+0)
+
+
+[4m[1m > EPOCH: 1/25[0m
+ --> k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000
+
+[1m > TRAINING (2026-05-11 18:44:17) [0m
+
+[1m   --> TIME: 2026-05-11 18:45:14 -- STEP: 10/168 -- GLOBAL_STEP: 4250[0m
+     | > loss_text_ce: 0.01816478557884693  (0.017796972207725047)
+     | > loss_mel_ce: 1.031369686126709  (0.8104839652776719)
+     | > loss: 1.0495344400405884  (0.8282809376716613)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.6046  (0.8684806108474732)
+     | > loader_time: 0.0063  (0.006126189231872558)
+
+ > Keyboard interrupt detected.
+ > Saving model before exiting...
+
+ > CHECKPOINT : k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000\checkpoint_4284.pth
+ ! Run is kept in k:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_175657/run-May-11-2026_05+57PM-0000000

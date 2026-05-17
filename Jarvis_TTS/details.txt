@@ -1,0 +1,317 @@
+File Name : 4071.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:23.17 = 556032 samples ~ 1737.6 CDDA sectors
+File Size : 1.11M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 556032
+Length (seconds): 23.168000
+Scaled by: 2147483647.0
+Maximum amplitude: 0.427643
+Minimum amplitude: -0.373932
+Midline amplitude: 0.026855
+Mean norm: 0.022539
+Mean amplitude: -0.000023
+RMS amplitude: 0.038066
+Maximum delta: 0.258575
+Minimum delta: 0.000000
+Mean delta: 0.006973
+RMS delta: 0.015554
+Rough frequency: 1560
+Volume adjustment: 2.338
+ 
+Channel Detail
+DC offset -0.000023
+Min level -0.373932
+Max level 0.427643
+Pk lev dB -7.38
+RMS lev dB -28.39
+RMS Pk dB -19.52
+RMS Tr dB -62.84
+Crest factor 11.23
+Flat factor 0.00
+Pk count 2
+Bit-depth 15/16
+Num samples 556k
+Length s 23.168
+Scale max 1.000000
+Window s 0.050
+
+_________________________________________________________________________________________
+
+
+File Name : 4170.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:23.40 = 561664 samples ~ 1755.2 CDDA sectors
+File Size : 1.12M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 561664
+Length (seconds): 23.402667
+Scaled by: 2147483647.0
+Maximum amplitude: 0.389771
+Minimum amplitude: -0.344910
+Midline amplitude: 0.022430
+Mean norm: 0.022284
+Mean amplitude: -0.000023
+RMS amplitude: 0.037155
+Maximum delta: 0.263885
+Minimum delta: 0.000000
+Mean delta: 0.007369
+RMS delta: 0.016536
+Rough frequency: 1700
+Volume adjustment: 2.566
+ 
+Channel Detail
+DC offset -0.000023
+Min level -0.344910
+Max level 0.389771
+Pk lev dB -8.18
+RMS lev dB -28.60
+RMS Pk dB -20.17
+RMS Tr dB -65.26
+Crest factor 10.49
+Flat factor 0.00
+Pk count 2
+Bit-depth 15/16
+Num samples 562k
+Length s 23.403
+Scale max 1.000000
+Window s 0.050
+
+
+_________________________________________________________________________________________
+
+File Name : 4284.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:23.31 = 559360 samples ~ 1748 CDDA sectors
+File Size : 1.12M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 559360
+Length (seconds): 23.306667
+Scaled by: 2147483647.0
+Maximum amplitude: 0.498901
+Minimum amplitude: -0.501770
+Midline amplitude: -0.001434
+Mean norm: 0.024392
+Mean amplitude: -0.000025
+RMS amplitude: 0.040602
+Maximum delta: 0.287231
+Minimum delta: 0.000000
+Mean delta: 0.007189
+RMS delta: 0.015930
+Rough frequency: 1498
+Volume adjustment: 1.993
+ 
+Channel Detail
+DC offset -0.000025
+Min level -0.501770
+Max level 0.498901
+Pk lev dB -5.99
+RMS lev dB -27.83
+RMS Pk dB -20.21
+RMS Tr dB -66.34
+Crest factor 12.36
+Flat factor 0.00
+Pk count 2
+Bit-depth 16/16
+Num samples 559k
+Length s 23.307
+Scale max 1.000000
+Window s 0.050
+
+_________________________________________________________________________________________
+
+
+File Name : 4500.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:25.21 = 604928 samples ~ 1890.4 CDDA sectors
+File Size : 1.21M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 604928
+Length (seconds): 25.205333
+Scaled by: 2147483647.0
+Maximum amplitude: 0.543274
+Minimum amplitude: -0.539490
+Midline amplitude: 0.001892
+Mean norm: 0.024760
+Mean amplitude: -0.000025
+RMS amplitude: 0.041418
+Maximum delta: 0.274475
+Minimum delta: 0.000000
+Mean delta: 0.007470
+RMS delta: 0.016105
+Rough frequency: 1485
+Volume adjustment: 1.841
+ 
+Channel Detail
+DC offset -0.000025
+Min level -0.539490
+Max level 0.543274
+Pk lev dB -5.30
+RMS lev dB -27.66
+RMS Pk dB -18.40
+RMS Tr dB -69.26
+Crest factor 13.12
+Flat factor 0.00
+Pk count 2
+Bit-depth 16/16
+Num samples 605k
+Length s 25.205
+Scale max 1.000000
+Window s 0.050
+
+_________________________________________________________________________________________
+
+File Name : 5000.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:22.84 = 548096 samples ~ 1712.8 CDDA sectors
+File Size : 1.10M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 548096
+Length (seconds): 22.837333
+Scaled by: 2147483647.0
+Maximum amplitude: 0.606079
+Minimum amplitude: -0.438812
+Midline amplitude: 0.083633
+Mean norm: 0.024602
+Mean amplitude: -0.000024
+RMS amplitude: 0.040423
+Maximum delta: 0.280945
+Minimum delta: 0.000000
+Mean delta: 0.007231
+RMS delta: 0.015258
+Rough frequency: 1441
+Volume adjustment: 1.650
+ 
+Channel Detail
+DC offset -0.000024
+Min level -0.438812
+Max level 0.606079
+Pk lev dB -4.35
+RMS lev dB -27.87
+RMS Pk dB -20.15
+RMS Tr dB -62.40
+Crest factor 14.99
+Flat factor 0.00
+Pk count 2
+Bit-depth 15/16
+Num samples 548k
+Length s 22.837
+Scale max 1.000000
+Window s 0.050
+
+_________________________________________________________________________________________
+
+
+File Name : 5500.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:23.07 = 553728 samples ~ 1730.4 CDDA sectors
+File Size : 1.11M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 553728
+Length (seconds): 23.072000
+Scaled by: 2147483647.0
+Maximum amplitude: 0.669342
+Minimum amplitude: -0.364136
+Midline amplitude: 0.152603
+Mean norm: 0.031557
+Mean amplitude: -0.000037
+RMS amplitude: 0.051467
+Maximum delta: 0.353607
+Minimum delta: 0.000000
+Mean delta: 0.008384
+RMS delta: 0.018041
+Rough frequency: 1338
+Volume adjustment: 1.494
+ 
+Channel Detail
+DC offset -0.000037
+Min level -0.364136
+Max level 0.669342
+Pk lev dB -3.49
+RMS lev dB -25.77
+RMS Pk dB -18.69
+RMS Tr dB -58.84
+Crest factor 13.01
+Flat factor 0.00
+Pk count 2
+Bit-depth 15/16
+Num samples 554k
+Length s 23.072
+Scale max 1.000000
+Window s 0.050
+
+_________________________________________________________________________________________
+
+
+File Name : 5500_2.wav
+Channels : 1
+Sample Rate : 24000
+Precision : 16-bit
+Duration : 00:00:24.83 = 595968 samples ~ 1862.4 CDDA sectors
+File Size : 1.19M
+Bit Rate : 384k
+Sample Encoding: 16-bit Signed Integer PCM
+ 
+File Detail
+Samples read: 595968
+Length (seconds): 24.832000
+Scaled by: 2147483647.0
+Maximum amplitude: 0.518951
+Minimum amplitude: -0.395874
+Midline amplitude: 0.061539
+Mean norm: 0.025740
+Mean amplitude: -0.000027
+RMS amplitude: 0.043110
+Maximum delta: 0.395752
+Minimum delta: 0.000000
+Mean delta: 0.007921
+RMS delta: 0.017545
+Rough frequency: 1554
+Volume adjustment: 1.927
+ 
+Channel Detail
+DC offset -0.000027
+Min level -0.395874
+Max level 0.518951
+Pk lev dB -5.70
+RMS lev dB -27.31
+RMS Pk dB -18.34
+RMS Tr dB -67.48
+Crest factor 12.04
+Flat factor 0.00
+Pk count 2
+Bit-depth 15/16
+Num samples 596k
+Length s 24.832
+Scale max 1.000000
+Window s 0.050

@@ -1,0 +1,859 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=./output/xtts_run_20260511_180956\run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_4071.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4071
+
+ > Model has 518442047 parameters
+
+[4m[1m > EPOCH: 0/25[0m
+ --> ./output/xtts_run_20260511_180956\run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 18:10:11) [0m
+
+[1m   --> TIME: 2026-05-11 18:11:52 -- STEP: 28/168 -- GLOBAL_STEP: 4100[0m
+     | > loss_text_ce: 0.011507243849337101  (0.016691860576559393)
+     | > loss_mel_ce: 0.12215161323547363  (0.45174467377364635)
+     | > loss: 0.13365885615348816  (0.4684365346495594)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.221  (0.5505844269480024)
+     | > loader_time: 0.0085  (0.00821089744567871)
+
+
+[1m   --> TIME: 2026-05-11 18:14:21 -- STEP: 78/168 -- GLOBAL_STEP: 4150[0m
+     | > loss_text_ce: 0.021092498674988747  (0.01760792624778472)
+     | > loss_mel_ce: 1.4324363470077515  (0.5190194672307907)
+     | > loss: 1.453528881072998  (0.5366273923562124)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.7372  (0.6464298963546753)
+     | > loader_time: 0.0112  (0.007560115594130297)
+
+ > Keyboard interrupt detected.
+ > Saving model before exiting...
+
+ > CHECKPOINT : ./output/xtts_run_20260511_180956\run-May-11-2026_06+10PM-0000000\checkpoint_4170.pth
+ ! Run is kept in ./output/xtts_run_20260511_180956\run-May-11-2026_06+10PM-0000000
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_4170.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4170
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4170.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.614140422688317, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:12:04) [0m
+
+[1m   --> TIME: 2026-05-11 19:14:26 -- STEP: 29/168 -- GLOBAL_STEP: 4200[0m
+     | > loss_text_ce: 0.02385564334690571  (0.017342461754792725)
+     | > loss_mel_ce: 0.6770163178443909  (0.8763043335799513)
+     | > loss: 0.7008719444274902  (0.8936467920911724)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.6826  (1.3012652314942459)
+     | > loader_time: 0.009  (0.012048285582969928)
+
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_4170.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 4170
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_4170.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.614140422688317, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:17:35) [0m
+
+[1m   --> TIME: 2026-05-11 19:20:08 -- STEP: 30/168 -- GLOBAL_STEP: 4200[0m
+     | > loss_text_ce: 0.01662736013531685  (0.01731862503414353)
+     | > loss_mel_ce: 0.9082849025726318  (0.877370352546374)
+     | > loss: 0.9249122738838196  (0.8946889748175939)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.3056  (1.5139823834101358)
+     | > loader_time: 0.0066  (0.011265985171000163)
+
+
+[1m   --> TIME: 2026-05-11 19:24:09 -- STEP: 80/168 -- GLOBAL_STEP: 4250[0m
+     | > loss_text_ce: 0.021342642605304718  (0.0173645903589204)
+     | > loss_mel_ce: 1.567795753479004  (0.8248725010082125)
+     | > loss: 1.589138388633728  (0.8422370886430143)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.5217  (2.0665471285581587)
+     | > loader_time: 0.0086  (0.011179071664810181)
+
+
+[1m   --> TIME: 2026-05-11 19:27:52 -- STEP: 130/168 -- GLOBAL_STEP: 4300[0m
+     | > loss_text_ce: 0.023076878860592842  (0.0176675952039659)
+     | > loss_mel_ce: 0.5012317299842834  (0.8496184616134717)
+     | > loss: 0.5243086218833923  (0.8672860574263792)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.455  (1.7337846187444834)
+     | > loader_time: 0.007  (0.009726388637836163)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.009049821042728992 [0m(+0)
+     | > avg_step_time: 1.5931862071602647 [0m(+0)
+     | > avg_loss_text_ce: 0.01758050604327443 [0m(+0)
+     | > avg_loss_mel_ce: 0.864420451357693 [0m(+0)
+     | > avg_loss: 0.8820009581343141 [0m(+0)
+     | > avg_grad_norm: 0.0 [0m(+0)
+
+
+[4m[1m > EPOCH: 1/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:30:17) [0m
+
+[1m   --> TIME: 2026-05-11 19:31:21 -- STEP: 12/168 -- GLOBAL_STEP: 4350[0m
+     | > loss_text_ce: 0.019193017855286598  (0.01830056038064261)
+     | > loss_mel_ce: 0.8919267654418945  (0.8224862664937973)
+     | > loss: 0.9111197590827942  (0.8407868246237437)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.688  (0.8896238605181376)
+     | > loader_time: 0.004  (0.005860467751820882)
+
+
+[1m   --> TIME: 2026-05-11 19:34:46 -- STEP: 62/168 -- GLOBAL_STEP: 4400[0m
+     | > loss_text_ce: 0.02171827107667923  (0.01867419801231835)
+     | > loss_mel_ce: 0.9559698104858398  (0.8707920776740197)
+     | > loss: 0.9776880741119385  (0.8894662780146445)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.3704  (1.1901779674714612)
+     | > loader_time: 0.006  (0.006008090511445076)
+
+
+[1m   --> TIME: 2026-05-11 19:38:03 -- STEP: 112/168 -- GLOBAL_STEP: 4450[0m
+     | > loss_text_ce: 0.022159993648529053  (0.018747002959051826)
+     | > loss_mel_ce: 0.640731155872345  (0.8659522988434348)
+     | > loss: 0.662891149520874  (0.8846993036568165)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.7269  (1.1950343676975794)
+     | > loader_time: 0.0061  (0.006124068583760943)
+
+
+[1m   --> TIME: 2026-05-11 19:41:46 -- STEP: 162/168 -- GLOBAL_STEP: 4500[0m
+     | > loss_text_ce: 0.025670025497674942  (0.018581469643884043)
+     | > loss_mel_ce: 1.6179594993591309  (0.858388736108203)
+     | > loss: 1.643629550933838  (0.876970206329852)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.3449  (1.2332616499912585)
+     | > loader_time: 0.0052  (0.005959758052119504)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_4500.pth
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.005955826022667801 [0m(-0.003093995020061191)
+     | > avg_step_time:[92m 1.2212667707911502 [0m(-0.3719194363691145)
+     | > avg_loss_text_ce:[91m 0.018464493785544243 [0m(+0.0008839877422698143)
+     | > avg_loss_mel_ce:[92m 0.8563964229500937 [0m(-0.008024028407599304)
+     | > avg_loss:[92m 0.8748609166659281 [0m(-0.0071400414683859825)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 2/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:42:11) [0m
+
+[1m   --> TIME: 2026-05-11 19:45:06 -- STEP: 44/168 -- GLOBAL_STEP: 4550[0m
+     | > loss_text_ce: 0.02177022583782673  (0.018489959078248252)
+     | > loss_mel_ce: 0.8770588636398315  (0.8690833490003239)
+     | > loss: 0.8988291025161743  (0.8875733143226667)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.5788  (0.7978628440336748)
+     | > loader_time: 0.0055  (0.005374642935666169)
+
+
+[1m   --> TIME: 2026-05-11 19:47:45 -- STEP: 94/168 -- GLOBAL_STEP: 4600[0m
+     | > loss_text_ce: 0.015056071802973747  (0.01797930894300659)
+     | > loss_mel_ce: 0.3940429389476776  (0.8482852134298771)
+     | > loss: 0.4090990126132965  (0.8662645247705439)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.311  (0.7774881707861069)
+     | > loader_time: 0.0045  (0.005428169636016194)
+
+
+[1m   --> TIME: 2026-05-11 19:50:37 -- STEP: 144/168 -- GLOBAL_STEP: 4650[0m
+     | > loss_text_ce: 0.011492550373077393  (0.01795797408299727)
+     | > loss_mel_ce: 0.4200522005558014  (0.8244500951841474)
+     | > loss: 0.4315447509288788  (0.8424080697198709)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3093  (0.8365391244490942)
+     | > loader_time: 0.0055  (0.005414649844169615)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.005441294458811866 [0m(-0.0005145315638559345)
+     | > avg_step_time:[92m 0.8465269311459479 [0m(-0.3747398396452023)
+     | > avg_loss_text_ce:[92m 0.017970770050933258 [0m(-0.0004937237346109846)
+     | > avg_loss_mel_ce:[92m 0.8268971504743942 [0m(-0.0294992724756995)
+     | > avg_loss:[92m 0.8448679208041665 [0m(-0.02999299586176163)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 3/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:51:58) [0m
+
+[1m   --> TIME: 2026-05-11 19:53:58 -- STEP: 26/168 -- GLOBAL_STEP: 4700[0m
+     | > loss_text_ce: 0.018938979133963585  (0.017561932739156943)
+     | > loss_mel_ce: 0.2743315100669861  (0.8196166398433539)
+     | > loss: 0.2932704985141754  (0.8371785626961634)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.562  (0.8620661680514996)
+     | > loader_time: 0.0051  (0.005646118750939002)
+
+
+[1m   --> TIME: 2026-05-11 19:56:02 -- STEP: 76/168 -- GLOBAL_STEP: 4750[0m
+     | > loss_text_ce: 0.013801894150674343  (0.017627212059635078)
+     | > loss_mel_ce: 0.2692599892616272  (0.7357510910614541)
+     | > loss: 0.2830618917942047  (0.7533782975454081)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.2239  (0.6850494428684837)
+     | > loader_time: 0.0048  (0.004981100559234619)
+
+
+[1m   --> TIME: 2026-05-11 19:58:04 -- STEP: 126/168 -- GLOBAL_STEP: 4800[0m
+     | > loss_text_ce: 0.01829763501882553  (0.017400050720584283)
+     | > loss_mel_ce: 0.43725377321243286  (0.69430404806894)
+     | > loss: 0.455551415681839  (0.7117040950864083)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3632  (0.6343132730514282)
+     | > loader_time: 0.0044  (0.004780928293863933)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.004809590870748735 [0m(-0.0006317035880631311)
+     | > avg_step_time:[92m 0.6557978512998113 [0m(-0.19072907984613663)
+     | > avg_loss_text_ce:[92m 0.01756091800680059 [0m(-0.0004098520441326685)
+     | > avg_loss_mel_ce:[92m 0.7177384714345019 [0m(-0.10915867903989229)
+     | > avg_loss:[92m 0.7352993869317502 [0m(-0.10956853387241627)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 4/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 19:59:58) [0m
+
+[1m   --> TIME: 2026-05-11 20:00:56 -- STEP: 8/168 -- GLOBAL_STEP: 4850[0m
+     | > loss_text_ce: 0.02165672741830349  (0.01667429052758962)
+     | > loss_mel_ce: 1.0837477445602417  (0.6261191181838512)
+     | > loss: 1.1054044961929321  (0.6427934132516384)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.1125  (1.1897222101688385)
+     | > loader_time: 0.0042  (0.005000978708267212)
+
+
+[1m   --> TIME: 2026-05-11 20:03:35 -- STEP: 58/168 -- GLOBAL_STEP: 4900[0m
+     | > loss_text_ce: 0.019526630640029907  (0.01811770434844596)
+     | > loss_mel_ce: 0.4451363980770111  (0.7024380479907167)
+     | > loss: 0.464663028717041  (0.7205557527727094)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3367  (1.1572373735493626)
+     | > loader_time: 0.0056  (0.006023156231847303)
+
+
+[1m   --> TIME: 2026-05-11 20:06:28 -- STEP: 108/168 -- GLOBAL_STEP: 4950[0m
+     | > loss_text_ce: 0.014224104583263397  (0.017835096490603903)
+     | > loss_mel_ce: 0.6724998354911804  (0.7241866165013228)
+     | > loss: 0.6867239475250244  (0.7420217123020577)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.0555  (1.086017593189523)
+     | > loader_time: 0.0067  (0.005662918090820314)
+
+
+[1m   --> TIME: 2026-05-11 20:09:28 -- STEP: 158/168 -- GLOBAL_STEP: 5000[0m
+     | > loss_text_ce: 0.018823863938450813  (0.01782733028094413)
+     | > loss_mel_ce: 0.5563629865646362  (0.7244084701885154)
+     | > loss: 0.5751868486404419  (0.7422357976813857)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3441  (1.0566327556779114)
+     | > loader_time: 0.0065  (0.0055849748321726385)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5000.pth
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.005570819991791323 [0m(+0.0007612291210425878)
+     | > avg_step_time:[91m 1.0359785314091663 [0m(+0.380180680109355)
+     | > avg_loss_text_ce:[91m 0.017785950803649635 [0m(+0.0002250327968490451)
+     | > avg_loss_mel_ce:[91m 0.7190143076959487 [0m(+0.0012758362614467833)
+     | > avg_loss:[91m 0.7368002553542927 [0m(+0.0015008684225424895)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 5/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:10:03) [0m
+
+[1m   --> TIME: 2026-05-11 20:13:04 -- STEP: 40/168 -- GLOBAL_STEP: 5050[0m
+     | > loss_text_ce: 0.011579349637031555  (0.018332391092553732)
+     | > loss_mel_ce: 0.8053699135780334  (0.7496116992086171)
+     | > loss: 0.8169492483139038  (0.7679440937936306)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.4047  (1.0658923208713533)
+     | > loader_time: 0.0043  (0.005488675832748412)
+
+
+[1m   --> TIME: 2026-05-11 20:16:22 -- STEP: 90/168 -- GLOBAL_STEP: 5100[0m
+     | > loss_text_ce: 0.014450649730861187  (0.018119011219176983)
+     | > loss_mel_ce: 0.2534341514110565  (0.7538687437772751)
+     | > loss: 0.2678847908973694  (0.7719877560933431)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.4415  (1.1209071715672814)
+     | > loader_time: 0.0036  (0.005321335792541504)
+
+
+[1m   --> TIME: 2026-05-11 20:19:24 -- STEP: 140/168 -- GLOBAL_STEP: 5150[0m
+     | > loss_text_ce: 0.013170809485018253  (0.01809333475705768)
+     | > loss_mel_ce: 0.5176510810852051  (0.7205732107694662)
+     | > loss: 0.5308219194412231  (0.7386665474091257)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.3833  (1.0757842540740967)
+     | > loader_time: 0.0052  (0.00521580491747175)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.0052749782265303375 [0m(-0.00029584176526098547)
+     | > avg_step_time:[91m 1.0525250677577032 [0m(+0.016546536348536867)
+     | > avg_loss_text_ce:[91m 0.017967926237932925 [0m(+0.00018197543428329077)
+     | > avg_loss_mel_ce:[92m 0.7073387940397522 [0m(-0.011675513656196457)
+     | > avg_loss:[92m 0.7253067220399482 [0m(-0.01149353331434455)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 6/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:20:56) [0m
+
+[1m   --> TIME: 2026-05-11 20:22:41 -- STEP: 22/168 -- GLOBAL_STEP: 5200[0m
+     | > loss_text_ce: 0.0180025864392519  (0.018289955967867918)
+     | > loss_mel_ce: 1.0096962451934814  (0.6939891509034417)
+     | > loss: 1.0276988744735718  (0.7122791057283228)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.0462  (0.929606253450567)
+     | > loader_time: 0.0038  (0.005548672242598101)
+
+
+[1m   --> TIME: 2026-05-11 20:25:19 -- STEP: 72/168 -- GLOBAL_STEP: 5250[0m
+     | > loss_text_ce: 0.022746169939637184  (0.017471875555606347)
+     | > loss_mel_ce: 0.5015354156494141  (0.6373753698749676)
+     | > loss: 0.5242815613746643  (0.6548472433868382)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.2408  (0.8219340211815305)
+     | > loader_time: 0.0056  (0.0052842795848846436)
+
+
+[1m   --> TIME: 2026-05-11 20:28:07 -- STEP: 122/168 -- GLOBAL_STEP: 5300[0m
+     | > loss_text_ce: 0.019834263250231743  (0.0175004279637923)
+     | > loss_mel_ce: 0.268892765045166  (0.6426178213269984)
+     | > loss: 0.2887270152568817  (0.6601182482525949)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.8744  (0.8305326289817935)
+     | > loader_time: 0.006  (0.005618484293828245)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.00554825017552176 [0m(+0.0002732719489914222)
+     | > avg_step_time:[92m 0.8179435515832044 [0m(-0.23458151617449874)
+     | > avg_loss_text_ce:[92m 0.017602230160090025 [0m(-0.00036569607784290095)
+     | > avg_loss_mel_ce:[92m 0.6317501724837069 [0m(-0.07558862155604529)
+     | > avg_loss:[92m 0.6493524022088081 [0m(-0.0759543198311401)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 7/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:30:29) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.7422357976813857, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:34:56) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.7422357976813857, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:40:52) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.7422357976813857, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/25[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:45:03) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.7422357976813857, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/34[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:45:57) [0m
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.7422357976813857, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:46:48) [0m
+
+[1m   --> TIME: 2026-05-11 20:47:25 -- STEP: 0/168 -- GLOBAL_STEP: 5000[0m
+     | > loss_text_ce: 0.0203311275690794  (0.0203311275690794)
+     | > loss_mel_ce: 0.2659691870212555  (0.2659691870212555)
+     | > loss: 0.28630030155181885  (0.28630030155181885)
+     | > grad_norm: 0  (0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.5032  (2.5031538009643555)
+     | > loader_time: 34.6589  (34.65891146659851)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5000.pth
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5000.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5000
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5000.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.28630030155181885, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 20:48:59) [0m
+
+[1m   --> TIME: 2026-05-11 20:49:53 -- STEP: 0/168 -- GLOBAL_STEP: 5000[0m
+     | > loss_text_ce: 0.020326504483819008  (0.020326504483819008)
+     | > loss_mel_ce: 0.24564816057682037  (0.24564816057682037)
+     | > loss: 0.26597467064857483  (0.26597467064857483)
+     | > grad_norm: 0  (0)
+     | > current_lr: 5e-06 
+     | > step_time: 9.7188  (9.71878433227539)
+     | > loader_time: 43.9261  (43.92612957954407)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5000.pth
+
+[1m   --> TIME: 2026-05-11 20:56:59 -- STEP: 50/168 -- GLOBAL_STEP: 5050[0m
+     | > loss_text_ce: 0.015514182858169079  (0.01699241189286113)
+     | > loss_mel_ce: 0.28739869594573975  (0.4341847364604473)
+     | > loss: 0.3029128909111023  (0.45117714822292326)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.4558  (5.3682042551040645)
+     | > loader_time: 0.0314  (0.024384312629699707)
+
+
+[1m   --> TIME: 2026-05-11 21:04:00 -- STEP: 100/168 -- GLOBAL_STEP: 5100[0m
+     | > loss_text_ce: 0.01784536987543106  (0.017431378420442335)
+     | > loss_mel_ce: 0.5884623527526855  (0.4350696269795298)
+     | > loss: 0.6063077449798584  (0.4525010061264038)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.5225  (4.846399343013763)
+     | > loader_time: 0.0063  (0.022545435428619386)
+
+
+[1m   --> TIME: 2026-05-11 21:11:02 -- STEP: 150/168 -- GLOBAL_STEP: 5150[0m
+     | > loss_text_ce: 0.014178731478750706  (0.01719937569151321)
+     | > loss_mel_ce: 0.4049752652645111  (0.40225466676056393)
+     | > loss: 0.41915398836135864  (0.4194540426135062)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.7416  (4.432817234992979)
+     | > loader_time: 0.0181  (0.019619995752970378)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.01883730916919823 [0m(+0)
+     | > avg_step_time: 4.383112891705448 [0m(+0)
+     | > avg_loss_text_ce: 0.01724992232943723 [0m(+0)
+     | > avg_loss_mel_ce: 0.40442075493360724 [0m(+0)
+     | > avg_loss: 0.4216706773299656 [0m(+0)
+     | > avg_grad_norm: 0.0 [0m(+0)
+
+
+[4m[1m > EPOCH: 1/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 21:13:25) [0m
+
+[1m   --> TIME: 2026-05-11 21:17:33 -- STEP: 32/168 -- GLOBAL_STEP: 5200[0m
+     | > loss_text_ce: 0.021494543179869652  (0.017645933097810488)
+     | > loss_mel_ce: 0.24246567487716675  (0.37011539097875357)
+     | > loss: 0.26396021246910095  (0.387761322199367)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.1917  (1.5928773954510689)
+     | > loader_time: 0.0167  (0.009957559406757355)
+
+
+[1m   --> TIME: 2026-05-11 21:24:09 -- STEP: 82/168 -- GLOBAL_STEP: 5250[0m
+     | > loss_text_ce: 0.013152447529137135  (0.018370764903587914)
+     | > loss_mel_ce: 0.29021188616752625  (0.3915222047305689)
+     | > loss: 0.3033643364906311  (0.4098929697874842)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.6486  (1.8071620144495153)
+     | > loader_time: 0.0151  (0.010108360430089437)
+
+
+[1m   --> TIME: 2026-05-11 21:29:53 -- STEP: 132/168 -- GLOBAL_STEP: 5300[0m
+     | > loss_text_ce: 0.016222532838582993  (0.018140222069412255)
+     | > loss_mel_ce: 0.17587031424045563  (0.3890169591106701)
+     | > loss: 0.19209285080432892  (0.407157181705715)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.5784  (1.757977483850537)
+     | > loader_time: 0.0087  (0.009754766117442736)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.00952265505305307 [0m(-0.009314654116145158)
+     | > avg_step_time:[92m 1.6817309328182015 [0m(-2.7013819588872465)
+     | > avg_loss_text_ce:[91m 0.018078557073423082 [0m(+0.0008286347439858538)
+     | > avg_loss_mel_ce:[92m 0.38254319271909265 [0m(-0.02187756221451459)
+     | > avg_loss:[92m 0.4006217499737611 [0m(-0.021048927356204505)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 2/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 21:33:01) [0m
+
+[1m   --> TIME: 2026-05-11 21:34:41 -- STEP: 14/168 -- GLOBAL_STEP: 5350[0m
+     | > loss_text_ce: 0.022130975499749184  (0.018281581612037762)
+     | > loss_mel_ce: 1.3957016468048096  (0.5534137886549745)
+     | > loss: 1.417832612991333  (0.5716953761875629)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.8101  (2.6005594560078213)
+     | > loader_time: 0.0086  (0.011938691139221191)
+
+
+[1m   --> TIME: 2026-05-11 21:36:57 -- STEP: 64/168 -- GLOBAL_STEP: 5400[0m
+     | > loss_text_ce: 0.015454952605068684  (0.017530729339341633)
+     | > loss_mel_ce: 0.05739900469779968  (0.3502575566526501)
+     | > loss: 0.07285396009683609  (0.3677882864139974)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.5369  (2.0330709777772427)
+     | > loader_time: 0.0096  (0.009930226951837534)
+
+
+[1m   --> TIME: 2026-05-11 21:39:24 -- STEP: 114/168 -- GLOBAL_STEP: 5450[0m
+     | > loss_text_ce: 0.017370490357279778  (0.017485244456972734)
+     | > loss_mel_ce: 0.09202820062637329  (0.36233252603887456)
+     | > loss: 0.10939869284629822  (0.3798177704999321)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.3904  (2.1078165665007482)
+     | > loader_time: 0.0096  (0.009771259207474563)
+
+
+[1m   --> TIME: 2026-05-11 21:41:48 -- STEP: 164/168 -- GLOBAL_STEP: 5500[0m
+     | > loss_text_ce: 0.01917036809027195  (0.017610264814277077)
+     | > loss_mel_ce: 0.13093949854373932  (0.35199827164774966)
+     | > loss: 0.15010987222194672  (0.3696085361809266)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.1107  (2.0114527969825575)
+     | > loader_time: 0.0091  (0.009691723963109456)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5500.pth
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.00966257677820628 [0m(+0.0001399217251532095)
+     | > avg_step_time:[91m 2.000902201601133 [0m(+0.31917126878293156)
+     | > avg_loss_text_ce:[92m 0.017593820877707837 [0m(-0.0004847361957152456)
+     | > avg_loss_mel_ce:[92m 0.3502476005229405 [0m(-0.032295592196152134)
+     | > avg_loss:[92m 0.3678414211301747 [0m(-0.03278032884358639)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 3/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 21:42:08) [0m
+
+[1m   --> TIME: 2026-05-11 21:48:39 -- STEP: 46/168 -- GLOBAL_STEP: 5550[0m
+     | > loss_text_ce: 0.020177680999040604  (0.017332123329296064)
+     | > loss_mel_ce: 0.5177280902862549  (0.3330875094980001)
+     | > loss: 0.537905752658844  (0.3504196335764035)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 3.2477  (1.6116161087284917)
+     | > loader_time: 0.0056  (0.007614197938338568)
+
+
+[1m   --> TIME: 2026-05-11 21:57:57 -- STEP: 96/168 -- GLOBAL_STEP: 5600[0m
+     | > loss_text_ce: 0.018654976040124893  (0.017367828879893445)
+     | > loss_mel_ce: 0.08698250353336334  (0.3034852411753188)
+     | > loss: 0.10563747584819794  (0.3208530693470191)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 2.5036  (2.0143067042032876)
+     | > loader_time: 0.0061  (0.006163164973258971)
+
+
+[1m   --> TIME: 2026-05-11 22:07:02 -- STEP: 146/168 -- GLOBAL_STEP: 5650[0m
+     | > loss_text_ce: 0.014653286896646023  (0.016995370394409928)
+     | > loss_mel_ce: 0.08147481083869934  (0.30559895845921087)
+     | > loss: 0.09612809866666794  (0.32259432818383393)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.4076  (2.155685767735521)
+     | > loader_time: 0.004  (0.005726618309543557)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.0058174333172643965 [0m(-0.0038451434609418833)
+     | > avg_step_time:[91m 2.1414596534774684 [0m(+0.14055745187633528)
+     | > avg_loss_text_ce:[92m 0.01710852563470424 [0m(-0.0004852952430035966)
+     | > avg_loss_mel_ce:[92m 0.3069749593199371 [0m(-0.04327264120300339)
+     | > avg_loss:[92m 0.3240834847092628 [0m(-0.043757936420911914)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 4/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-11 22:09:25) [0m
+
+[1m   --> TIME: 2026-05-11 22:13:13 -- STEP: 28/168 -- GLOBAL_STEP: 5700[0m
+     | > loss_text_ce: 0.014170282520353794  (0.01785126760868089)
+     | > loss_mel_ce: 0.18827582895755768  (0.2888003239142044)
+     | > loss: 0.2024461179971695  (0.3066515899928553)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 4.2012  (3.2927517976079668)
+     | > loader_time: 0.0102  (0.0077230674879891536)
+
+
+[1m   --> TIME: 2026-05-11 22:17:13 -- STEP: 78/168 -- GLOBAL_STEP: 5750[0m
+     | > loss_text_ce: 0.017723888158798218  (0.017414378694807862)
+     | > loss_mel_ce: 0.1842174082994461  (0.28369628107891637)
+     | > loss: 0.20194129645824432  (0.30111065798271924)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 0.314  (2.65520987755213)
+     | > loader_time: 0.007  (0.00715036881275666)
+
+
+[1m   --> TIME: 2026-05-11 22:19:34 -- STEP: 128/168 -- GLOBAL_STEP: 5800[0m
+     | > loss_text_ce: 0.01872190274298191  (0.01738668213511118)
+     | > loss_mel_ce: 0.09518949687480927  (0.2900112976785749)
+     | > loss: 0.11391139775514603  (0.3073979786131532)
+     | > grad_norm: 0  (0.0)
+     | > current_lr: 5e-06 
+     | > step_time: 1.4847  (1.9086293708533053)
+     | > loader_time: 0.005  (0.006668638437986374)
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.006477778543255286 [0m(+0.0006603452259908897)
+     | > avg_step_time:[91m 2.297994629351679 [0m(+0.1565349758742105)
+     | > avg_loss_text_ce:[91m 0.017354365019964242 [0m(+0.00024583938526000215)
+     | > avg_loss_mel_ce:[92m 0.30016820564375307 [0m(-0.006806753676184052)
+     | > avg_loss:[92m 0.31752257026776576 [0m(-0.006560914441497034)
+     | > avg_grad_norm: 0.0 [0m(+0.0)
+

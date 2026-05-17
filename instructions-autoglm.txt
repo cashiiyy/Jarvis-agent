@@ -1,0 +1,105 @@
+========================================
+OPEN-AUTOGLM INSTALLATION COMMANDS
+========================================
+
+----------------------------------------
+1) CHECK PYTHON VERSION (3.10+ REQUIRED)
+----------------------------------------
+python --version
+python3 --version
+
+
+----------------------------------------
+2) INSTALL ADB (VERIFY INSTALL)
+----------------------------------------
+adb version
+
+
+----------------------------------------
+3) CONNECT AND VERIFY ANDROID DEVICE
+----------------------------------------
+adb devices
+
+
+----------------------------------------
+4) ENABLE TCP/IP MODE (OPTIONAL - WIFI)
+----------------------------------------
+adb tcpip 5555
+adb connect <PHONE_IP>:5555
+adb devices
+
+
+----------------------------------------
+5) INSTALL ADB KEYBOARD (ANDROID ONLY)
+----------------------------------------
+adb install ADBKeyboard.apk
+adb shell ime enable com.android.adbkeyboard/.AdbIME
+
+
+----------------------------------------
+6) CLONE OPEN-AUTOGLM REPOSITORY
+----------------------------------------
+git clone https://github.com/zai-org/Open-AutoGLM.git
+cd Open-AutoGLM
+
+
+----------------------------------------
+7) CREATE VIRTUAL ENVIRONMENT (OPTIONAL)
+----------------------------------------
+python -m venv venv
+
+# macOS / Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+
+----------------------------------------
+8) INSTALL DEPENDENCIES
+----------------------------------------
+pip install -r requirements.txt
+pip install -e .
+
+
+
+----------------------------------------
+10) RUN WITH HOSTED MODEL (RECOMMENDED)
+----------------------------------------
+
+# z.ai
+python main.py \
+ --base-url https://api.z.ai/api/paas/v4 \
+ --model autoglm-phone-multilingual \
+ --apikey YOUR_API_KEY \
+ "Open Chrome browser"
+
+
+----------------------------------------
+11) RUN INTERACTIVE MODE
+----------------------------------------
+python main.py \
+ --base-url https://api.z.ai/api/paas/v4 \
+ --model autoglm-phone-multilingual \
+ --apikey YOUR_API_KEY
+
+
+
+
+----------------------------------------
+12) DEVICE EXECUTION
+----------------------------------------
+
+// Wireless connection
+ python main.py  --connect IP:PORT  --lang en --base-url http://34.127.16.80:8000/v1 --model  "autoglm-phone-9b-multilingual" "Open Files, locate the most recent pdf file  in Downloads, and share it via Gmail to the first email address — do not send."
+   
+
+// Wires connection
+python main.py    --lang en --base-url http://34.187.243.192:8000/v1 --model  "autoglm-phone-9b-multilingual" "Open Files, locate the most recent pdf file  in Downloads, and share it via Gmail to the first email address — do not send."
+
+----------------------------------------
+16) TROUBLESHOOTING COMMANDS
+----------------------------------------
+adb kill-server
+adb start-server
+adb devices

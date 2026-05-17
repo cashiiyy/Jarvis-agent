@@ -1,0 +1,13 @@
+openwakeword
+faster-whisper
+TTS
+pure-python-adb
+pyautogui
+ollama
+pyaudio
+sounddevice
+numpy
+scipy
+requests
+pyperclip
+pyttsx3
