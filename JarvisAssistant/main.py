@@ -13,6 +13,7 @@ for _p in site.getsitepackages():
 
 import asyncio
 from jarvis_core.event_bus import bus
+from jarvis_core.config import config
 from jarvis_voice.wake_word import JarvisWakeWord
 from jarvis_voice.microphone import CommandListener
 from jarvis_voice.stt import JarvisSTT
@@ -20,10 +21,20 @@ from jarvis_voice.tts import JarvisTTS
 from jarvis_agents.intent_parser import IntentParser
 from jarvis_network.router import DeviceRouter
 
+# ---------------------------------------------------------------------------
+# Initialise the global TTS singleton (loads model once at startup)
+# ---------------------------------------------------------------------------
+from audio.tts_manager import init_tts as _init_tts
+print("[JARVIS] Initialising TTS engine...")
+_tts_mgr = _init_tts(config.get_tts_settings())
+
 
 class JarvisApp:
     def __init__(self):
         print("Initializing JARVIS modules...")
+        # JarvisTTS owns the XTTS model for this pipeline;
+        # tts_manager (_tts_mgr) shares the same config and is used by
+        # voice_agent_hub and any other module that calls audio.tts_manager.speak().
         self.tts = JarvisTTS()
         self.stt = JarvisSTT()
         self.parser = IntentParser()
@@ -33,6 +44,8 @@ class JarvisApp:
 
         # Wire TTS speaking state into the wake-word listener's mic mute
         self.tts.set_speaking_callback(self.wake_word.set_speaking)
+        # Also wire the global tts_manager so its worker doesn't fight the mic
+        _tts_mgr.register_speaking_callback(self.wake_word.set_speaking)
 
         self.is_processing = False
         self.command_queue = asyncio.Queue(maxsize=1)

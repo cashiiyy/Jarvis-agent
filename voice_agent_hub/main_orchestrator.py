@@ -61,6 +61,25 @@ from skills.youtube_skill       import search_youtube                # noqa: E40
 
 load_dotenv()
 
+# ── TTS Singleton (Coqui XTTS) ───────────────────────────────────────────────────
+# Add JarvisAssistant to sys.path so audio.tts_manager is importable
+_jarvis_dir = os.path.abspath(
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "JarvisAssistant")
+)
+if _jarvis_dir not in sys.path:
+    sys.path.insert(0, _jarvis_dir)
+
+try:
+    # pyrefly: ignore [missing-import]
+    from audio.tts_manager import init_tts as _init_tts
+    # pyrefly: ignore [missing-import]
+    from jarvis_core.config import config as _jarvis_config
+    _tts_mgr = _init_tts(_jarvis_config.get_tts_settings())
+except Exception as _tts_import_err:
+    _tts_mgr = None
+    print(f"[TTS] Could not load tts_manager: {_tts_import_err}")
+
+
 # ---------------------------------------------------------------------------
 # Logging
 # ---------------------------------------------------------------------------
@@ -308,11 +327,24 @@ def record_phrase(
 
 
 # ---------------------------------------------------------------------------
-# TTS (console-only for now, XTTS disabled for stability)
+# TTS — uses the XTTS singleton loaded at startup
 # ---------------------------------------------------------------------------
 def speak(text: str):
-    if text:
-        print(f"\n{COLOR_JARVIS}[Jarvis]:{COLOR_RESET} {text}")
+    """
+    Speak `text` using the local Coqui XTTS model (blocking until audio finishes).
+    Falls back to console print if TTS is unavailable.
+    """
+    if not text:
+        return
+    # Always print so we can see what Jarvis is saying in the log
+    print(f"\n{COLOR_JARVIS}[Jarvis]:{COLOR_RESET} {text}")
+    if _tts_mgr is not None:
+        try:
+            # speak_blocking() synthesises + plays on the calling thread
+            # so the main loop naturally waits for speech to finish.
+            _tts_mgr.speak_blocking(text)
+        except Exception as e:
+            log.error("[TTS] speak() error: %s", e)
 
 
 # ---------------------------------------------------------------------------
