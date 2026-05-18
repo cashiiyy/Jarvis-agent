@@ -77,9 +77,10 @@ class Config:
         ]
     )
 
-    # Reference speaker wav — prefer a longer, clear voice sample
+    # Reference speaker wav — pinned to the matching checkpoint-4284 recording
     XTTS_SPEAKER_WAV = _first_existing(
         [
+            r"K:\PROJECTS\Phone agent\Jarvis_TTS\4284.wav",
             os.path.join(XTTS_MODEL_DIR, "reference.wav"),
             os.path.join(XTTS_MODEL_DIR, "speaker.wav"),
             r"K:\PROJECTS\Phone agent\Jarvis_TTS\dataset\wavs\caged_intro_2.wav",
