@@ -169,3 +169,6 @@ models/
 *.pth
 *.pt
 *.bin
+
+# dataset
+*.wav
