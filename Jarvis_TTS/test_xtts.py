@@ -57,9 +57,12 @@ if torch.cuda.is_available():
 
 # Generate speech
 text_to_speak = (
-    "ALL SystemS online, SIR . All neural matrices fully synchronized AND Initial audio calibration IS NOW completed. Re-routing computational power to core functions."
+    "All Systems online, SIR ."
+    "All neural matrices fully synchronized and Initial audio calibration is now completed."
+    "Re-routing computational power to core functions."
     "Initialising systems."
-    "Hi , I am Jarvis.Your personal assistant. Shall we proceed with the next experiment?"
+    "Hi , I am Jarvis.Your personal assistant."
+    "Shall we proceed with the next experiment?"
     )
 
 outputs = model.synthesize(

@@ -857,3 +857,62 @@
      | > avg_loss:[92m 0.31752257026776576 [0m(-0.006560914441497034)
      | > avg_grad_norm: 0.0 [0m(+0.0)
 
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5500.pth ...
+ > Restoring Model...
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Current device: 0
+ | > Num. of GPUs: 1
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 1
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+ > Restoring from checkpoint_5500.pth ...
+ > Restoring Model...
+ > Restoring Optimizer...
+ > Model restored from step 5500
+
+ > Model has 518442047 parameters
+ > Restoring best loss from checkpoint_5500.pth ...
+ > Starting with loaded last best loss {'train_loss': 0.3696085361809266, 'eval_loss': None}
+
+[4m[1m > EPOCH: 0/5[0m
+ --> K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000
+
+[1m > TRAINING (2026-05-22 14:27:46) [0m
+
+[1m   --> TIME: 2026-05-22 14:28:37 -- STEP: 0/168 -- GLOBAL_STEP: 5000[0m
+     | > loss_text_ce: 0.019486617296934128  (0.019486617296934128)
+     | > loss_mel_ce: 0.09194464981555939  (0.09194464981555939)
+     | > loss: 0.11143127083778381  (0.11143127083778381)
+     | > grad_norm: 0  (0)
+     | > current_lr: 5e-06 
+     | > step_time: 3.905  (3.9050402641296387)
+     | > loader_time: 46.1645  (46.16447424888611)
+
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5000.pth
+ > Keyboard interrupt detected.
+ > Saving model before exiting...
+
+ > CHECKPOINT : K:/PROJECTS/Phone agent/Jarvis_TTS/output/xtts_run_20260511_180956/run-May-11-2026_06+10PM-0000000\checkpoint_5025.pth
