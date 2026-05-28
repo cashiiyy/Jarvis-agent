@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Open_AutoGLM
+
+Open-AutoGLM/
+
 # C extensions
 *.so
 
@@ -172,3 +176,5 @@ models/
 
 # dataset
 *.wav
+*.aif
+
